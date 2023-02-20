@@ -1,0 +1,23 @@
+body {
+    background-color:midnightblue;
+    color: white;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+.form {
+    display: grid;
+    background-color: transparent blue;
+}
