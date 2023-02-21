@@ -9,13 +9,14 @@
 </head>
 <body>
     <div class = "container">
-        <h1>Password Generator</h1>
-        <h3>Password</h3>
+        <h1 class = "title">Password Generator</h1>
+        <h3 class = "passwordDisplay">Password</h3>
         <form class="form">
-            <label for = "characterAmount">Number of Characters</label>
-            <input type = "number" min ="8" max ="128" id="passwordAmountNumber" value="10">
-            <input type = "range" min ="8" max ="128" id ="passwordAmountSlider" value="10">
-
+            <label for ="characterAmount">Number of Characters</label>
+            <div class ="characterAmountDiv">
+                <input type = "range" min ="8" max ="128" id ="passwordAmountSlider" value="10">
+                <input type = "number" min ="8" max ="128" id="passwordAmountNumber" value="10">
+            </div>
             <label for = "includeUppercase">Include Uppercase</label>
             <input type = "checkbox" id="includeUppercase">
 
@@ -25,6 +26,9 @@
             <label for = "includeNumbers">Include Numbers</label>
             <input type = "checkbox" id="includeNumbers">
         </form>
+            <div class = "buttonDiv">
+                <button class = "passwordButton">Generate Password</button>
+            </div>
     </div>
     <script src="script.js"></script>
 </body>
