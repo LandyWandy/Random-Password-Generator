@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
-    font-family: fantasy;
+    font-family:Arial, Helvetica, sans-serif;
 }
 .container {
     display: flex;
@@ -18,7 +18,6 @@ body {
     border-radius: 1rem;
     background-color: rgb(97, 40, 254);
 }
-
 .form {
     display: grid;
     grid-template-columns: auto auto;
@@ -34,7 +33,7 @@ body {
 }
 
 label {
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .characterAmountDiv {
@@ -57,7 +56,7 @@ label {
 }
 
 .passwordButton {
-    display: flex;
+    grid-column: span 2;
     justify-content: center;
     align-items: center;
     min-height: 3vh;
@@ -68,15 +67,9 @@ label {
     font-weight: bold;
     color: white;
     cursor: pointer;
+    margin-top: 2rem;
 }
 
 .passwordButton:hover {
     background-color: rgba(255, 255, 255, 0.115);
-}
-
-.buttonDiv {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
 }
