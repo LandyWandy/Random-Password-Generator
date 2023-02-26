@@ -10,12 +10,12 @@
 <body>
     <div class = "container">
         <h1 class = "title">Password Generator</h1>
-        <h3 class = "passwordDisplay">Password</h3>
+        <h3 class = "password-Display" id = "passwordDisplay">Password</h3>
         <form id="passwordGeneratorForm" class="form">
             <label for ="characterAmount">Number of Characters</label>
             <div class ="characterAmountDiv">
                 <input type = "range" min ="8" max ="128" id ="passwordAmountSlider" value="10">
-                <input type = "number" min ="8" max ="128" id="passwordAmountNumber" value="10">
+                <input class ="number-input" type = "number" min ="8" max ="128" id="passwordAmountNumber" value="10">
             </div>
             <label for = "includeUppercase">Include Uppercase</label>
             <input type = "checkbox" id="includeUppercase">

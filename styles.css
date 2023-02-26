@@ -41,7 +41,7 @@ label {
     align-items: center;
 }
 
-.passwordDisplay {
+.password-Display {
     display:flex;
     justify-content: center;
     align-items: center;
